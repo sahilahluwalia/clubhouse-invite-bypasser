@@ -1,0 +1,25 @@
+body {
+    background: whitesmoke
+}
+
+h1 {
+    text-align: right;
+}
+
+div {
+    background: whitesmoke;
+    color: black;
+    border-radius: 1em;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.email {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
