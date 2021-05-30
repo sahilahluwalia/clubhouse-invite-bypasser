@@ -45,9 +45,9 @@ def phone():
         fullno = "+"+countrycode+phone
         if len(fullno) < 8 or len(fullno) > 16:
             return render_template('phone.html', bol="FAILED")
-        #answer = magic(fullno)
-        answer = {}
-        answer['success'] = True
+        answer = magic(fullno)
+        #answer = {}
+        #answer['success'] = True
         if answer['success'] == True:
             bol = "SUCESS"
         else:
